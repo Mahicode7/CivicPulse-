@@ -1,0 +1,546 @@
+{
+  "complaints": [
+    {
+      "id": "cmp_1",
+      "title": "Gigantic Pothole on 80 Feet Road",
+      "description": "A hazardous pothole right in front of the multiplex. Multiple two-wheelers have skid over this in the past 24 hours. Needs urgent attention before rains start.",
+      "category": "Roads",
+      "severity": "Severe",
+      "status": "In Progress",
+      "area": "Indiranagar, Bengaluru",
+      "latitude": 12.971899,
+      "longitude": 77.641151,
+      "image": "https://images.unsplash.com/photo-1515162305285-0293e4767cc2?auto=format&fit=crop&q=80&w=600",
+      "dateReported": "2025-05-21T10:30:00Z",
+      "reportedBy": {
+        "id": "usr_1",
+        "name": "Aravind Swamy"
+      },
+      "votes": [
+        "usr_2",
+        "usr_3"
+      ],
+      "commentsCount": 2,
+      "assignedOfficer": {
+        "name": "Suresh Gowda",
+        "rank": "Executive Engineer",
+        "department": "BBMP Road Infrastructure Dept",
+        "phone": "+91 98450 12345"
+      },
+      "mlaDetails": {
+        "name": "S. Raghu",
+        "constituency": "C.V. Raman Nagar"
+      },
+      "timeline": [
+        {
+          "status": "Submitted",
+          "date": "2025-05-21T10:30:00Z",
+          "comment": "Complaint filed successfully."
+        },
+        {
+          "status": "Verified",
+          "date": "2025-05-21T14:15:00Z",
+          "comment": "BBMP ground inspector confirmed issue."
+        },
+        {
+          "status": "Assigned",
+          "date": "2025-05-22T09:00:00Z",
+          "comment": "Assigned to BBMP Road Infrastructure Department under EE Suresh Gowda."
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-05-23T08:30:00Z",
+          "comment": "Asphalt mixer dispatched to the spot. Repair works ongoing."
+        }
+      ]
+    },
+    {
+      "id": "cmp_2",
+      "title": "Illegal Garbage Dumping & Burning",
+      "description": "Huge piles of plastic and household garbage being dumped on the corner of 27th Main. Unidentified people are burning it in the night causing extreme smoke.",
+      "category": "Garbage",
+      "severity": "Severe",
+      "status": "Submitted",
+      "area": "HSR Layout, Sector 1",
+      "latitude": 12.910243,
+      "longitude": 77.645012,
+      "image": "https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?auto=format&fit=crop&q=80&w=600",
+      "dateReported": "2025-05-23T15:45:00Z",
+      "reportedBy": {
+        "id": "usr_2",
+        "name": "Meera Nair"
+      },
+      "votes": [],
+      "commentsCount": 0,
+      "assignedOfficer": null,
+      "mlaDetails": {
+        "name": "Satish Reddy",
+        "constituency": "Bommanahalli"
+      },
+      "timeline": [
+        {
+          "status": "Submitted",
+          "date": "2025-05-23T15:45:00Z",
+          "comment": "Complaint filed with BBMP Solid Waste Management cell."
+        }
+      ]
+    },
+    {
+      "id": "cmp_3",
+      "title": "Broken Streetlight near Children's Park",
+      "description": "The streetlight next to the central park gate has been broken for two weeks. Entire street is pitch dark after 6 PM, making it unsafe for kids and walkers.",
+      "category": "Electricity",
+      "severity": "Medium",
+      "status": "Resolved",
+      "area": "Whitefield, Phase 2",
+      "latitude": 12.969824,
+      "longitude": 77.749871,
+      "image": "https://images.unsplash.com/photo-1509395062183-67c5ad6faff9?auto=format&fit=crop&q=80&w=600",
+      "dateReported": "2025-05-14T09:20:00Z",
+      "reportedBy": {
+        "id": "usr_3",
+        "name": "Rohan Das"
+      },
+      "votes": [
+        "usr_1"
+      ],
+      "commentsCount": 1,
+      "assignedOfficer": {
+        "name": "K. R. Kumar",
+        "rank": "Assistant Engineer",
+        "department": "BESCOM Electrical Division"
+      },
+      "mlaDetails": {
+        "name": "Manjula S.",
+        "constituency": "Mahadevapura"
+      },
+      "timeline": [
+        {
+          "status": "Submitted",
+          "date": "2025-05-14T09:20:00Z",
+          "comment": "Filed with BESCOM portal."
+        },
+        {
+          "status": "Verified",
+          "date": "2025-05-16T10:00:00Z",
+          "comment": "Inspection completed."
+        },
+        {
+          "status": "Assigned",
+          "date": "2025-05-17T14:30:00Z",
+          "comment": "Assigned to Ward 84 Maintenance Team."
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-05-19T08:00:00Z",
+          "comment": "Replacement bulb dispatched."
+        },
+        {
+          "status": "Resolved",
+          "date": "2025-05-20T16:45:00Z",
+          "comment": "LED Bulb replaced and verified working.",
+          "resolutionImage": "https://images.unsplash.com/photo-1540959733332-eab4deceeaf7?auto=format&fit=crop&q=80&w=600"
+        }
+      ]
+    },
+    {
+      "id": "cmp_4",
+      "title": "Major Sewage Line Overflow",
+      "description": "Sewage water leaking from the manhole and flooding the main road. The stench is unbearable and cars are splashing black water on pedestrians.",
+      "category": "Drainage",
+      "severity": "Severe",
+      "status": "In Progress",
+      "area": "Indiranagar, 100 Feet Road",
+      "latitude": 12.964921,
+      "longitude": 77.639144,
+      "image": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&q=80&w=600",
+      "dateReported": "2025-05-22T11:30:00Z",
+      "reportedBy": {
+        "id": "usr_1",
+        "name": "Aravind Swamy"
+      },
+      "votes": [
+        "usr_2",
+        "usr_3",
+        "usr_4"
+      ],
+      "commentsCount": 3,
+      "assignedOfficer": {
+        "name": "S. K. Shivakumar",
+        "rank": "Assistant Executive Engineer",
+        "department": "BWSSB Sewerage Operations Board",
+        "phone": "+91 99000 54321"
+      },
+      "mlaDetails": {
+        "name": "S. Raghu",
+        "constituency": "C.V. Raman Nagar"
+      },
+      "timeline": [
+        {
+          "status": "Submitted",
+          "date": "2025-05-22T11:30:00Z",
+          "comment": "Reported to BWSSB helpline."
+        },
+        {
+          "status": "Verified",
+          "date": "2025-05-22T14:00:00Z",
+          "comment": "Sewer block confirmed near Metro Station pillar 45."
+        },
+        {
+          "status": "Assigned",
+          "date": "2025-05-22T16:30:00Z",
+          "comment": "BWSSB jetting machine crew assigned."
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-05-23T08:00:00Z",
+          "comment": "High-pressure desilting and jetting operation underway."
+        }
+      ]
+    },
+    {
+      "id": "cmp_1779982902425",
+      "votes": [],
+      "commentsCount": 0,
+      "assignedOfficer": null,
+      "mlaDetails": {
+        "name": "Local MLA",
+        "constituency": "Indiranagar"
+      },
+      "timeline": [
+        {
+          "status": "Submitted",
+          "date": "2026-05-28T15:41:42.425Z",
+          "comment": "Complaint filed successfully."
+        }
+      ],
+      "title": "pothole",
+      "description": "srfszfs;fdgbsvfvfs",
+      "category": "Roads",
+      "severity": "Low",
+      "latitude": 12.9716,
+      "longitude": 77.5946,
+      "area": "Indiranagar, Bengaluru",
+      "image": "https://images.unsplash.com/photo-1515162305285-0293e4767cc2?auto=format&fit=crop&q=80&w=600",
+      "reportedBy": {
+        "id": 1,
+        "name": "Demo User"
+      },
+      "dateReported": "2026-05-28T15:41:42.426Z"
+    },
+    {
+      "id": "cmp_1779983217945",
+      "votes": [
+        1
+      ],
+      "commentsCount": 0,
+      "assignedOfficer": null,
+      "mlaDetails": {
+        "name": "Local MLA",
+        "constituency": "Indiranagar"
+      },
+      "timeline": [
+        {
+          "status": "Submitted",
+          "date": "2026-05-28T15:46:57.945Z",
+          "comment": "Complaint filed successfully."
+        }
+      ],
+      "title": "ertyuiuytredfgyj",
+      "description": "gdrthjgfjfhdtjfsfd jdfjdfgjsr",
+      "category": "Roads",
+      "severity": "Low",
+      "latitude": 12.9716,
+      "longitude": 77.5946,
+      "area": "Indiranagar, Bengaluru",
+      "image": "https://images.unsplash.com/photo-1515162305285-0293e4767cc2?auto=format&fit=crop&q=80&w=600",
+      "reportedBy": {
+        "id": 1,
+        "name": "Demo User"
+      },
+      "dateReported": "2026-05-28T15:46:57.945Z"
+    },
+    {
+      "id": "cmp_1780410914753",
+      "votes": [],
+      "commentsCount": 0,
+      "assignedOfficer": null,
+      "mlaDetails": {
+        "name": "Local MLA",
+        "constituency": "Indiranagar"
+      },
+      "timeline": [
+        {
+          "status": "Submitted",
+          "date": "2026-06-02T14:35:14.753Z",
+          "comment": "Complaint filed successfully."
+        }
+      ],
+      "title": "Broken pothole on Brigade Road near Café Coffee Day",
+      "description": "There is a large pothole about 2 feet wide causing traffic hazards. Vehicles have to swerve to avoid it which is dangerous during peak hours.",
+      "category": "Drainage",
+      "severity": "Low",
+      "latitude": 12.9716,
+      "longitude": 77.5946,
+      "area": "Indiranagar, Bengaluru",
+      "image": "https://images.unsplash.com/photo-1515162305285-0293e4767cc2?auto=format&fit=crop&q=80&w=600",
+      "reportedBy": {
+        "id": 1,
+        "name": "Demo User"
+      },
+      "dateReported": "2026-06-02T14:35:14.753Z"
+    },
+    {
+      "id": "cmp_1784457989718",
+      "votes": [
+        1
+      ],
+      "commentsCount": 0,
+      "assignedOfficer": null,
+      "mlaDetails": {
+        "name": "Local MLA",
+        "constituency": "Koramangala"
+      },
+      "timeline": [
+        {
+          "status": "Submitted",
+          "date": "2026-07-19T10:46:29.719Z",
+          "comment": "Complaint filed successfully."
+        }
+      ],
+      "title": "I saw Garbage overflow near Banasawadi bus stop",
+      "description": "Garbage is overflowing near the Banasawadi Bus Stop, causing a foul smell and creating an unhygienic environment for commuters and nearby residents. Kindly arrange for immediate cleanup and ensure regular waste collection to prevent further accumulation.",
+      "category": "Garbage",
+      "severity": "Medium",
+      "latitude": 13.012786735699004,
+      "longitude": 77.64642436763064,
+      "area": "Koramangala, 5th Block, Ward 151, Bengaluru",
+      "image": "https://images.unsplash.com/photo-1515162305285-0293e4767cc2?auto=format&fit=crop&q=80&w=600",
+      "reportedBy": {
+        "id": 1,
+        "name": "Demo User"
+      },
+      "dateReported": "2026-07-19T10:46:29.719Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "usr_1",
+      "name": "Aravind Swamy",
+      "username": "aravind_bengaluru",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=120",
+      "area": "Indiranagar, Bengaluru",
+      "points": 450,
+      "badge": "Hero Citizen",
+      "reportsCount": 14,
+      "resolvedCount": 9,
+      "level": "Gold"
+    },
+    {
+      "id": "usr_2",
+      "name": "Meera Nair",
+      "username": "meera_nair",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=120",
+      "area": "HSR Layout, Bengaluru",
+      "points": 280,
+      "badge": "Silver Responder",
+      "reportsCount": 8,
+      "resolvedCount": 5,
+      "level": "Silver"
+    },
+    {
+      "id": "usr_3",
+      "name": "Rohan Das",
+      "username": "rohan_das",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=120",
+      "area": "Whitefield, Bengaluru",
+      "points": 120,
+      "badge": "Active Watchdog",
+      "reportsCount": 4,
+      "resolvedCount": 1,
+      "level": "Bronze"
+    },
+    {
+      "id": "usr_4",
+      "name": "Suresh Gowda",
+      "username": "suresh_officer",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=120",
+      "area": "BBMP Central Office",
+      "points": 0,
+      "badge": "Senior Engineer",
+      "reportsCount": 0,
+      "resolvedCount": 12,
+      "level": "Officer"
+    },
+    {
+      "id": "1",
+      "name": "Demo User",
+      "email": "user@example.com",
+      "role": "user",
+      "isActive": true,
+      "createdAt": "2026-05-28T11:53:40.684Z",
+      "totalPoints": 0,
+      "availablePoints": 0,
+      "redeemedPoints": 0,
+      "rewardHistory": [],
+      "earnedCertificates": [],
+      "earnedBadges": [],
+      "source": "auth"
+    },
+    {
+      "id": "2",
+      "name": "Demo Staff",
+      "email": "staff@example.com",
+      "role": "staff",
+      "isActive": true,
+      "createdAt": "2026-05-28T11:53:40.769Z",
+      "totalPoints": 0,
+      "availablePoints": 0,
+      "redeemedPoints": 0,
+      "rewardHistory": [],
+      "earnedCertificates": [],
+      "earnedBadges": [],
+      "source": "auth"
+    },
+    {
+      "id": "3",
+      "name": "Demo Admin",
+      "email": "admin@example.com",
+      "role": "admin",
+      "isActive": true,
+      "createdAt": "2026-05-28T11:53:40.849Z",
+      "totalPoints": 0,
+      "availablePoints": 0,
+      "redeemedPoints": 0,
+      "rewardHistory": [],
+      "earnedCertificates": [],
+      "earnedBadges": [],
+      "source": "auth"
+    },
+    {
+      "id": "4",
+      "name": "mahi",
+      "email": "mahi@gmail.com",
+      "role": "user",
+      "isActive": true,
+      "createdAt": "2026-05-28T16:29:30.339Z",
+      "totalPoints": 0,
+      "availablePoints": 0,
+      "redeemedPoints": 0,
+      "rewardHistory": [],
+      "earnedCertificates": [],
+      "earnedBadges": [],
+      "source": "auth"
+    },
+    {
+      "id": "5",
+      "name": "Mahi",
+      "email": "svc@gmail.com",
+      "role": "admin",
+      "isActive": true,
+      "createdAt": "2026-05-28T16:30:50.622Z",
+      "totalPoints": 0,
+      "availablePoints": 0,
+      "redeemedPoints": 0,
+      "rewardHistory": [],
+      "earnedCertificates": [],
+      "earnedBadges": [],
+      "source": "auth"
+    },
+    {
+      "id": "6",
+      "name": "Mahi",
+      "email": "mahendra7002m@gmail.com",
+      "role": "user",
+      "isActive": true,
+      "createdAt": "2026-06-02T09:37:58.851Z",
+      "totalPoints": 0,
+      "availablePoints": 0,
+      "redeemedPoints": 0,
+      "rewardHistory": [],
+      "earnedCertificates": [],
+      "earnedBadges": [],
+      "source": "auth"
+    },
+    {
+      "id": "7",
+      "name": "Test User",
+      "email": "testuser@test.com",
+      "role": "user",
+      "isActive": true,
+      "createdAt": "2026-06-02T14:36:58.436Z",
+      "totalPoints": 0,
+      "availablePoints": 0,
+      "redeemedPoints": 0,
+      "rewardHistory": [],
+      "earnedCertificates": [],
+      "earnedBadges": [],
+      "source": "auth"
+    },
+    {
+      "id": "8",
+      "name": "Lifecycle Tester",
+      "email": "lifecycle-1784458700255@test.com",
+      "role": "user",
+      "isActive": true,
+      "createdAt": "2026-07-19T10:58:20.335Z",
+      "points": 150,
+      "totalPoints": 150,
+      "availablePoints": 150,
+      "redeemedPoints": 0,
+      "rewardHistory": [],
+      "earnedCertificates": [],
+      "earnedBadges": [],
+      "source": "auth"
+    },
+    {
+      "id": "9",
+      "name": "Lifecycle Tester",
+      "email": "lifecycle-1784458853232@test.com",
+      "role": "user",
+      "isActive": true,
+      "createdAt": "2026-07-19T11:00:53.330Z",
+      "points": 165,
+      "totalPoints": 165,
+      "availablePoints": 165,
+      "redeemedPoints": 0,
+      "rewardHistory": [],
+      "earnedCertificates": [],
+      "earnedBadges": [],
+      "source": "auth",
+      "badge": "Active Citizen",
+      "level": "Bronze",
+      "reportsCount": 0,
+      "resolvedCount": 0
+    }
+  ],
+  "comments": [
+    {
+      "id": "cmt_1",
+      "complaintId": "cmp_1",
+      "userId": "usr_2",
+      "userName": "Meera Nair",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=120",
+      "text": "I passed by this yesterday. It is highly dangerous, especially for night riders! Thanks for reporting.",
+      "date": "2025-05-21T16:00:00Z"
+    },
+    {
+      "id": "cmt_2",
+      "complaintId": "cmp_1",
+      "userId": "usr_4",
+      "userName": "Suresh Gowda",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=120",
+      "text": "We have noted this complaint. Asphalt mix crew will repair this by tomorrow noon.",
+      "date": "2025-05-22T12:30:00Z"
+    },
+    {
+      "id": "cmt_3",
+      "complaintId": "cmp_3",
+      "userId": "usr_1",
+      "userName": "Aravind Swamy",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=120",
+      "text": "Excellent! The light is bright now, park is much safer.",
+      "date": "2025-05-20T18:00:00Z"
+    }
+  ]
+}

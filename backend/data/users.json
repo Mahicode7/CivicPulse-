@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1,
+    "name": "Demo User",
+    "email": "user@example.com",
+    "password": "$2a$10$VneUAz6EgleZxNIULJVr9.pzTpk8C2a0DzDklLgoAAeQq7MGJPR32",
+    "role": "user",
+    "isActive": true,
+    "createdAt": "2026-05-28T11:53:40.684Z"
+  },
+  {
+    "id": 2,
+    "name": "Demo Staff",
+    "email": "staff@example.com",
+    "password": "$2a$10$.v3RxckOe9H7m21bV6IiDu7wiXfnmbFK5ueDLmGHnI.IKtOsTF8Ve",
+    "role": "staff",
+    "isActive": true,
+    "createdAt": "2026-05-28T11:53:40.769Z"
+  },
+  {
+    "id": 3,
+    "name": "Demo Admin",
+    "email": "admin@example.com",
+    "password": "$2a$10$96dvZTvue/F50N55jvHpj.BJQy0TLrORDoY2.S8guwcnMy4nDrqm2",
+    "role": "admin",
+    "isActive": true,
+    "createdAt": "2026-05-28T11:53:40.849Z"
+  },
+  {
+    "id": 4,
+    "name": "mahi",
+    "email": "mahi@gmail.com",
+    "password": "$2a$10$vnOK1Sg7KE2x0M8f/WKKKO2mFPCSGztxNYD9nM9bz9WdKevrx4dTW",
+    "role": "user",
+    "isActive": true,
+    "createdAt": "2026-05-28T16:29:30.339Z"
+  },
+  {
+    "id": 5,
+    "name": "Mahi",
+    "email": "svc@gmail.com",
+    "password": "$2a$10$q6HF6LN6mcVlhQdDjl.uCOHFjg49ech3.c51S0GigjLHCSDhOvEOu",
+    "role": "admin",
+    "isActive": true,
+    "createdAt": "2026-05-28T16:30:50.622Z"
+  },
+  {
+    "id": 6,
+    "name": "Mahi",
+    "email": "mahendra7002m@gmail.com",
+    "password": "$2a$10$tJC26YtcGjzuOlbrrKzIauxZ2wtrcxafch8vJmH6Pzf79wFeYtvCu",
+    "role": "user",
+    "isActive": true,
+    "createdAt": "2026-06-02T09:37:58.851Z"
+  },
+  {
+    "id": 7,
+    "name": "Test User",
+    "email": "testuser@test.com",
+    "password": "$2a$10$iq6akE7meescejbGeSj20epFLzLktfRD57Tj84gc5F9EayDEDFcLm",
+    "role": "user",
+    "isActive": true,
+    "createdAt": "2026-06-02T14:36:58.436Z"
+  },
+  {
+    "id": 8,
+    "name": "Lifecycle Tester",
+    "email": "lifecycle-1784458700255@test.com",
+    "password": "$2a$10$Jll/lgw4q.w.Q3FDRzJHre/H0jNGzMAjTf8/YAwCe/tXQUCb/wnqS",
+    "role": "user",
+    "isActive": true,
+    "createdAt": "2026-07-19T10:58:20.335Z",
+    "points": 150,
+    "totalPoints": 150,
+    "availablePoints": 150,
+    "redeemedPoints": 0,
+    "rewardHistory": [],
+    "earnedCertificates": [],
+    "earnedBadges": []
+  },
+  {
+    "id": 9,
+    "name": "Lifecycle Tester",
+    "email": "lifecycle-1784458853232@test.com",
+    "password": "$2a$10$TravNjPeT56yvnw/niTny.i/XXem.BMV8NrukN1ruJLAO/HfFWgeu",
+    "role": "user",
+    "isActive": true,
+    "createdAt": "2026-07-19T11:00:53.330Z",
+    "points": 165,
+    "totalPoints": 165,
+    "availablePoints": 165,
+    "redeemedPoints": 0,
+    "rewardHistory": [],
+    "earnedCertificates": [],
+    "earnedBadges": []
+  }
+]

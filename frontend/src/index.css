@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-950 text-slate-100 font-sans antialiased overflow-x-hidden;
+    font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', sans-serif;
+    @apply tracking-tight;
+  }
+}
+
+/* Custom Cyber-Civic Style Rules */
+@layer utilities {
+  .bg-cyber-gradient {
+    background: radial-gradient(circle at top right, rgba(14, 148, 235, 0.15), transparent 45%),
+                radial-gradient(circle at bottom left, rgba(14, 148, 235, 0.05), transparent 40%),
+                #020617;
+  }
+  
+  .bg-light-gradient {
+    background: radial-gradient(circle at top right, rgba(14, 148, 235, 0.08), transparent 45%),
+                radial-gradient(circle at bottom left, rgba(14, 148, 235, 0.03), transparent 40%),
+                #f8fafc;
+  }
+
+  .glass-panel {
+    @apply backdrop-blur-md bg-slate-900/60 border border-slate-800/60 shadow-xl shadow-slate-950/20;
+  }
+
+  .glass-card {
+    @apply backdrop-blur-md bg-slate-900/40 border border-slate-800/50 hover:border-civic-500/30 transition-all duration-300 shadow-md;
+  }
+  
+  .glass-card-light {
+    @apply backdrop-blur-md bg-white/70 border border-slate-200/80 hover:border-civic-400/40 transition-all duration-300 shadow-md;
+  }
+
+  .glass-input {
+    @apply bg-slate-950/50 border border-slate-800 text-slate-100 focus:border-civic-500 focus:ring-1 focus:ring-civic-500 outline-none transition-all duration-200 rounded-lg px-4 py-2.5;
+  }
+
+  .glass-input-light {
+    @apply bg-slate-50/50 border border-slate-200 text-slate-900 focus:border-civic-500 focus:ring-1 focus:ring-civic-500 outline-none transition-all duration-200 rounded-lg px-4 py-2.5;
+  }
+
+  .text-neon-glow {
+    text-shadow: 0 0 10px rgba(14, 148, 235, 0.6), 0 0 20px rgba(14, 148, 235, 0.2);
+  }
+
+  .border-neon-glow {
+    box-shadow: 0 0 15px rgba(14, 148, 235, 0.25);
+    @apply border-civic-500/50;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-slate-950;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-800 rounded-full hover:bg-slate-700 transition-colors;
+}
+
+/* Custom Leaflet Map styling overrides for Cyber dark-theme */
+.leaflet-container {
+  background: #020617 !important;
+  font-family: inherit !important;
+}
+
+.leaflet-bar {
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  box-shadow: none !important;
+}
+
+.leaflet-bar a {
+  background-color: rgba(15, 23, 42, 0.9) !important;
+  color: #f1f5f9 !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+  transition: all 0.2s ease;
+}
+
+.leaflet-bar a:hover {
+  background-color: #0e94eb !important;
+  color: #ffffff !important;
+}
+
+.leaflet-popup-content-wrapper {
+  background: rgba(15, 23, 42, 0.95) !important;
+  color: #f1f5f9 !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  backdrop-filter: blur(8px);
+  border-radius: 12px !important;
+  padding: 2px !important;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5) !important;
+}
+
+.leaflet-popup-tip {
+  background: rgba(15, 23, 42, 0.95) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Dynamic glow pulsing for GIS map markers */
+@keyframes pulseGlow {
+  0% {
+    transform: scale(0.9);
+    opacity: 0.5;
+    box-shadow: 0 0 0 0 rgba(14, 148, 235, 0.7);
+  }
+  70% {
+    transform: scale(1);
+    opacity: 1;
+    box-shadow: 0 0 0 10px rgba(14, 148, 235, 0);
+  }
+  100% {
+    transform: scale(0.9);
+    opacity: 0.5;
+    box-shadow: 0 0 0 0 rgba(14, 148, 235, 0);
+  }
+}
+
+.pulse-marker-severe {
+  animation: pulseGlow 2s infinite;
+  @apply rounded-full bg-red-500 border-2 border-white;
+}
+
+.pulse-marker-medium {
+  animation: pulseGlow 2.5s infinite;
+  @apply rounded-full bg-amber-500 border-2 border-white;
+}
+
+.pulse-marker-resolved {
+  @apply rounded-full bg-emerald-500 border-2 border-white;
+}
