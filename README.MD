@@ -173,7 +173,7 @@ Backend:
 
 ```bash
 cd backend
-npm run dev
+node server.js
 ```
 
 Frontend:
